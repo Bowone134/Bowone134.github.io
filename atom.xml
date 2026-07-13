@@ -4,9 +4,9 @@
     <name>Bowone134</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
-  <id>https://bowone134.github.io/project/</id>
-  <link href="https://bowone134.github.io/project/" rel="alternate"/>
-  <link href="https://bowone134.github.io/project/atom.xml" rel="self"/>
+  <id>https://bowone134.github.io/</id>
+  <link href="https://bowone134.github.io/" rel="alternate"/>
+  <link href="https://bowone134.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, Bowone134</rights>
   <title>Bowone134's Website</title>
   <updated>2026-07-13T16:48:11.327Z</updated>
@@ -14,13 +14,13 @@
     <author>
       <name>Bowone134</name>
     </author>
-    <category term="Trivia" scheme="https://bowone134.github.io/project/categories/Trivia/"/>
-    <category term="Thoughts" scheme="https://bowone134.github.io/project/tags/Thoughts/"/>
+    <category term="Trivia" scheme="https://bowone134.github.io/categories/Trivia/"/>
+    <category term="Thoughts" scheme="https://bowone134.github.io/tags/Thoughts/"/>
     <content>
       <![CDATA[<p>终于把网站上线了，也是第一次有一个互联网公开的网站了，可喜可贺（<br>接下来应该是把曾经干过的事，能想起来就写进来，想不起来算了（<br>发布这篇博客的时候，网站的框架已经建立起来了，虽然搜索、评论预览和一些页面样式还没解决，但主要功能已经弄好了。<br>我还想搞个多语言来着，但是折腾半天没解决，就先放着了。<br>虽然感觉大概率这个网站最后就会无人维护，但是现在有人维护。之后咋样就之后再说吧XD</p>]]>
     </content>
-    <id>https://bowone134.github.io/project/2026/07/The-first-post/</id>
-    <link href="https://bowone134.github.io/project/2026/07/The-first-post/"/>
+    <id>https://bowone134.github.io/2026/07/The-first-post/</id>
+    <link href="https://bowone134.github.io/2026/07/The-first-post/"/>
     <published>2026-07-13T16:22:17.000Z</published>
     <summary>
       <![CDATA[<p>终于把网站上线了，也是第一次有一个互联网公开的网站了，可喜可贺（<br>接下来应该是把曾经干过的事，能想起来就写进来，想不起来算了（<br>发布这篇博客的时候，网站的框架已经建立起来了，虽然搜索、评论预览和一些页面样式还没解决，但主要功能已经弄好了。<br>我还想搞个多语言]]>
@@ -32,15 +32,15 @@
     <author>
       <name>Bowone134</name>
     </author>
-    <category term="test" scheme="https://bowone134.github.io/project/categories/test/"/>
-    <category term="test" scheme="https://bowone134.github.io/project/tags/test/"/>
-    <category term="en" scheme="https://bowone134.github.io/project/tags/en/"/>
-    <category term="i18n" scheme="https://bowone134.github.io/project/tags/i18n/"/>
+    <category term="test" scheme="https://bowone134.github.io/categories/test/"/>
+    <category term="test" scheme="https://bowone134.github.io/tags/test/"/>
+    <category term="en" scheme="https://bowone134.github.io/tags/en/"/>
+    <category term="i18n" scheme="https://bowone134.github.io/tags/i18n/"/>
     <content>
       <![CDATA[<h2 id="Making-i18n…"><a href="#Making-i18n…" class="headerlink" title="Making i18n…"></a>Making i18n…</h2><p>Why am i writing these blogs using English unconsciously again??? Whatever, I’ll just make a multilanguage and see how it works.<br>Okay I’m back, no progress, copilot keeps ignoring what I want it to do, so I guess if I want to do it I have to do it later.</p>]]>
     </content>
-    <id>https://bowone134.github.io/project/2026/07/test-post3/</id>
-    <link href="https://bowone134.github.io/project/2026/07/test-post3/"/>
+    <id>https://bowone134.github.io/2026/07/test-post3/</id>
+    <link href="https://bowone134.github.io/2026/07/test-post3/"/>
     <published>2026-07-13T07:27:35.000Z</published>
     <summary>
       <![CDATA[<h2 id="Making-i18n…"><a href="#Making-i18n…" class="headerlink" title="Making i18n…"></a>Making i18n…</h2><p>Why am i writing these blogs u]]>
@@ -52,14 +52,14 @@
     <author>
       <name>Bowone134</name>
     </author>
-    <category term="test" scheme="https://bowone134.github.io/project/categories/test/"/>
-    <category term="test" scheme="https://bowone134.github.io/project/tags/test/"/>
-    <category term="en" scheme="https://bowone134.github.io/project/tags/en/"/>
+    <category term="test" scheme="https://bowone134.github.io/categories/test/"/>
+    <category term="test" scheme="https://bowone134.github.io/tags/test/"/>
+    <category term="en" scheme="https://bowone134.github.io/tags/en/"/>
     <content>
       <![CDATA[<h2 id="This-is-another-test-post"><a href="#This-is-another-test-post" class="headerlink" title="This is another test post."></a>This is another test post.</h2><p>wtf why when no page can be showed, the home page simply just doesn’t load???<br>Okay I’ll keep at least one post unhidden until I make first actual blog.  </p>]]>
     </content>
-    <id>https://bowone134.github.io/project/2026/07/test-post2/</id>
-    <link href="https://bowone134.github.io/project/2026/07/test-post2/"/>
+    <id>https://bowone134.github.io/2026/07/test-post2/</id>
+    <link href="https://bowone134.github.io/2026/07/test-post2/"/>
     <published>2026-07-13T07:09:40.000Z</published>
     <summary>
       <![CDATA[<h2 id="This-is-another-test-post"><a href="#This-is-another-test-post" class="headerlink" title="This is another test post."></a>This is an]]>
@@ -71,14 +71,14 @@
     <author>
       <name>Bowone134</name>
     </author>
-    <category term="test" scheme="https://bowone134.github.io/project/categories/test/"/>
-    <category term="test" scheme="https://bowone134.github.io/project/tags/test/"/>
-    <category term="en" scheme="https://bowone134.github.io/project/tags/en/"/>
+    <category term="test" scheme="https://bowone134.github.io/categories/test/"/>
+    <category term="test" scheme="https://bowone134.github.io/tags/test/"/>
+    <category term="en" scheme="https://bowone134.github.io/tags/en/"/>
     <content>
       <![CDATA[<h2 id="A-brand-new-beginning…to-the-actual-beginning"><a href="#A-brand-new-beginning…to-the-actual-beginning" class="headerlink" title="A brand new beginning…to the actual beginning"></a>A brand new beginning…to the actual beginning</h2><p>I’m writing this post as a test before writing actual first blog, so there aren’t much content.<br>During hexo installation there is a reminder of highlight feature not installed due to security, but nothing showed when I want to approve it. Deepseek told me to test it when I write blog, so here it is:  </p><pre><code class="highlight cpp"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span><span class="keyword">using</span> <span class="keyword">namespace</span> std;<span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;    cout&lt;&lt;<span class="string">&quot;Hello world&quot;</span>&lt;&lt;endl;    <span class="keyword">return</span> <span class="number">0</span>;&#125;</code></pre><pre><code class="highlight python"><span class="comment">#import math</span><span class="built_in">print</span>(<span class="string">&quot;Hello World&quot;</span>)</code></pre><p><del>Ehh it seems not working…Let me fix this quickly.</del>  </p><p>Oh my bad you need to use 3 ‘&#96;’ and language name instead of 4 spaces to create a code block here. nvm.<br>Old ways still works but without highlight.  </p><p>Now I want to find a good theme for my website. I’ve found this one <a href="https://github.com/Litreily/hexo-theme-snark" title="snark">snark</a>. Let’s see how it works for my pages.<br><em>It’s 0:37 now so I’ll leave this part until tomorrow.</em>  </p><p>Okay I’m back. The theme looks perfect. Although I’ve found another one to try, I think I will still use this one. I can’t use line number in theme’s settings, but for now it looks fine, I’ll accept it.  </p>]]>
     </content>
-    <id>https://bowone134.github.io/project/2026/07/test-post/</id>
-    <link href="https://bowone134.github.io/project/2026/07/test-post/"/>
+    <id>https://bowone134.github.io/2026/07/test-post/</id>
+    <link href="https://bowone134.github.io/2026/07/test-post/"/>
     <published>2026-07-12T15:57:09.000Z</published>
     <summary>
       <![CDATA[<h2 id="A-brand-new-beginning…to-the-actual-beginning"><a href="#A-brand-new-beginning…to-the-actual-beginning" class="headerlink" title="A]]>
