@@ -9,7 +9,26 @@
   <link href="https://bowone134.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, Bowone134</rights>
   <title>Bowone134's Website</title>
-  <updated>2026-07-13T16:48:11.327Z</updated>
+  <updated>2026-07-14T06:31:17.405Z</updated>
+  <entry>
+    <author>
+      <name>Bowone134</name>
+    </author>
+    <category term="test" scheme="https://bowone134.github.io/categories/test/"/>
+    <category term="test" scheme="https://bowone134.github.io/tags/test/"/>
+    <category term="image" scheme="https://bowone134.github.io/tags/image/"/>
+    <content>
+      <![CDATA[<p>我现在才发现这个主题有图片放大，不过好像作者压根没把东西include进来，现在试试。<br><img src="/img/profile.jpg" alt="test.jpg" title="测试图片"><br>解决了，原来不是作者没include。作者在base.pug里用cdn导入了，但是他导入的版本不在了。手动改到一个最新版本就行了。</p>]]>
+    </content>
+    <id>https://bowone134.github.io/2026/07/image-test/</id>
+    <link href="https://bowone134.github.io/2026/07/image-test/"/>
+    <published>2026-07-14T05:52:50.000Z</published>
+    <summary>
+      <![CDATA[<p>我现在才发现这个主题有图片放大，不过好像作者压根没把东西include进来，现在试试。<br><img src="/img/profile.jpg" alt="test.jpg" title="测试图片"><br>解决了，原来不是作者没include。作者在base.pug]]>
+    </summary>
+    <title>image-test</title>
+    <updated>2026-07-14T06:31:17.405Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Bowone134</name>
@@ -19,14 +38,14 @@
     <content>
       <![CDATA[<p>终于把网站上线了，也是第一次有一个互联网公开的网站了，可喜可贺（<br>接下来应该是把曾经干过的事，能想起来就写进来，想不起来算了（<br>发布这篇博客的时候，网站的框架已经建立起来了，虽然搜索、评论预览和一些页面样式还没解决，但主要功能已经弄好了。<br>我还想搞个多语言来着，但是折腾半天没解决，就先放着了。<br>虽然感觉大概率这个网站最后就会无人维护，但是现在有人维护。之后咋样就之后再说吧XD</p>]]>
     </content>
-    <id>https://bowone134.github.io/2026/07/The-first-post/</id>
-    <link href="https://bowone134.github.io/2026/07/The-first-post/"/>
+    <id>https://bowone134.github.io/2026/07/The-first-blog/</id>
+    <link href="https://bowone134.github.io/2026/07/The-first-blog/"/>
     <published>2026-07-13T16:22:17.000Z</published>
     <summary>
       <![CDATA[<p>终于把网站上线了，也是第一次有一个互联网公开的网站了，可喜可贺（<br>接下来应该是把曾经干过的事，能想起来就写进来，想不起来算了（<br>发布这篇博客的时候，网站的框架已经建立起来了，虽然搜索、评论预览和一些页面样式还没解决，但主要功能已经弄好了。<br>我还想搞个多语言]]>
     </summary>
-    <title>第一篇博客！/The first post!</title>
-    <updated>2026-07-13T16:48:11.327Z</updated>
+    <title>第一篇博客！/The first blog!</title>
+    <updated>2026-07-14T05:12:50.705Z</updated>
   </entry>
   <entry>
     <author>

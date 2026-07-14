@@ -1,6 +1,7 @@
+https://bowone134.github.io/2026/07/image-test/
+https://bowone134.github.io/2026/07/The-first-blog/
 https://bowone134.github.io/2026/07/test-post3/
 https://bowone134.github.io/2026/07/test-post2/
-https://bowone134.github.io/2026/07/The-first-post/
 https://bowone134.github.io/about/index.html
 https://bowone134.github.io/tags/index.html
 https://bowone134.github.io/categories/index.html
@@ -9,6 +10,7 @@ https://bowone134.github.io/2026/07/test-post/
 https://bowone134.github.io/
 https://bowone134.github.io/tags/Thoughts/
 https://bowone134.github.io/tags/test/
+https://bowone134.github.io/tags/image/
 https://bowone134.github.io/tags/en/
 https://bowone134.github.io/tags/i18n/
 https://bowone134.github.io/categories/Trivia/

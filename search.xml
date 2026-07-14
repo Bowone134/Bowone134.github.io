@@ -4,9 +4,36 @@
   
     
     <entry>
-      <title>第一篇博客！/The first post!</title>
-      <link href="/2026/07/The-first-post/"/>
-      <url>/2026/07/The-first-post/</url>
+      <title>image-test</title>
+      <link href="/2026/07/image-test/"/>
+      <url>/2026/07/image-test/</url>
+      
+        <content type="html"><![CDATA[<p>我现在才发现这个主题有图片放大，不过好像作者压根没把东西include进来，现在试试。<br><img src="/img/profile.jpg" alt="test.jpg" title="测试图片"><br>解决了，原来不是作者没include。作者在base.pug里用cdn导入了，但是他导入的版本不在了。手动改到一个最新版本就行了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+            <tag> image </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇博客！/The first blog!</title>
+      <link href="/2026/07/The-first-blog/"/>
+      <url>/2026/07/The-first-blog/</url>
       
         <content type="html"><![CDATA[<p>终于把网站上线了，也是第一次有一个互联网公开的网站了，可喜可贺（<br>接下来应该是把曾经干过的事，能想起来就写进来，想不起来算了（<br>发布这篇博客的时候，网站的框架已经建立起来了，虽然搜索、评论预览和一些页面样式还没解决，但主要功能已经弄好了。<br>我还想搞个多语言来着，但是折腾半天没解决，就先放着了。<br>虽然感觉大概率这个网站最后就会无人维护，但是现在有人维护。之后咋样就之后再说吧XD</p>]]></content>
       
