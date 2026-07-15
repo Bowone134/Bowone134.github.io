@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><meta name="theme-color" content="#0f1923"><meta name="baidu-site-verification"><title>建站中的各种问题/Struggles on setting up website | Bowone134's Website</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"><link rel="stylesheet" type="text/css" href="/css/style.css"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.png"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script><meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="Bowone134's Website" type="application/atom+xml">
+</head><link rel="stylesheet" type="text/css" href="/plugins/highlight/atom-one-dark.min.css"><script type="text/javascript" src="/plugins/highlight/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();
+</script><script type="text/javascript" src="/js/ready.js" defer></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.css"><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.umd.js" defer></script><body><div class="mobile-head" id="mobile-head"><div class="navbar-icon"><span></span><span></span><span></span></div><div class="navbar-title"><a href="/">BOWONE134</a></div><div class="navbar-search"><!--= show a circle here--></div></div><div class="h-wrapper" id="menu"><nav class="h-head box"><div class="m-hdimg"><a class="hdimg img" href="/"><img class="nofancybox" src="/img/profile.jpg" width="96" height="96" alt="Bowone134"></a><h1 class="ttl"><a href="/">Bowone134's Website</a></h1></div><p class="m-desc">Per Aspera Ad Astra</p><div class="m-nav"><ul><li><span class="dot">●</span><a href="/archives/">归档</a></li><li><span class="dot">●</span><a href="/categories/">分类</a></li><li><span class="dot">●</span><a href="/tags/">标签</a></li><li><span class="dot">●</span><a href="/about/">关于</a></li><li><span class="dot">●</span><a href="/atom.xml">RSS</a></li><li class="m-sch"><form class="form" id="j-formsch" method="get"><input class="txt" type="text" id="local-search-input" name="q" value="搜索" onfocus="if(this.value=='搜索'){this.value='';}" onblur="if(this.value==''){this.value='搜索';}"><input type="text" style="display:none;"></form></li></ul><div id="local-search-result"></div></div></nav></div><div id="back2Top"><a class="fa fa-arrow-up" title="Back to top" href="#"></a></div><div class="box" id="container"><div class="l-wrapper"><div class="l-content box"><div class="l-post l-post-art"><article class="p-art"><div class="p-header box"><h1 class="p-title">建站中的各种问题/Struggles on setting up website</h1><div class="p-info"><span class="p-date"><i class="fa fa-calendar"></i><a href="/2026/07/struggles-on-setting-up-website/">2026-07-15</a></span><span class="p-category"><i class="fa fa-folder"></i><a href="/categories/Internet/">Internet</a>&nbsp;&bull;&nbsp;<a href="/categories/Internet/Website/">Website</a>&nbsp;&bull;&nbsp;<a href="/categories/Walkthrough/">Walkthrough</a></span></div></div><div class="p-content"><h1 id="为什么建个人网站？"><a href="#为什么建个人网站？" class="headerlink" title="为什么建个人网站？"></a>为什么建个人网站？</h1><p>Emm..突然想到就来了（<br>好吧其实还是有一定诱因的。前几天我想着给电脑整个wsl，整完了又想着整个waydroid，结果整了有两三天，还没解决最后的网络访问问题。之后我想着再来看看，结果忘记了waydroid需要的一些服务wsl默认不自启，我也没记都是哪些服务要手动启动。最后我不得不把我整waydroid看到那些教程全都翻出来，一个个的手动启动。虽然最后把它们都写进文件里让waydroid启动的时候自己启动服务。但是这个过程也表明，有些东西还是记下来比较好。  </p>
+<h1 id="我的经历"><a href="#我的经历" class="headerlink" title="我的经历"></a>我的经历</h1><p>我已经将建站教程写进<a href="/2026/07/How-to-setup-your-own-website-with-Hexo-and-GitHub-Pages/" title="如何借助Hexo和GitHub Pages搭建个人博客">另一篇博客</a>里了，这里就写一些我个人碰上的问题。</p>
+<h2 id="代码高亮不工作"><a href="#代码高亮不工作" class="headerlink" title="代码高亮不工作"></a>代码高亮不工作</h2><p>在刚安装Hexo时，npm给我报了一个警告：</p>
+<pre><code class="highlight plaintext">npm warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+npm warn allow-scripts   hexo-util@3.3.0 (postinstall: npm run build:highlight)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts &lt;pkg&gt;` to allow.</code></pre>
+
+<p>但很神奇的是，我在运行<code>npm approve-scripts hexo-util@3.3.0</code>后，它却提示<code>No packages with unreviewed install scripts.</code>。之后也多次碰上这种情况。之后我确认了一下，在第一次运行approve的时候就已经默认放行脚本运行了。但之后每次碰到相关包运行这些脚本时，npm会在已经放行的情况下照旧提示上面的警告。<br><del>什么玩意</del><br>总之这个放过了就无视就好。<br>之后，为了验证是否成功安装代码高亮，我写了测试文章，但代码没有高亮。在排查了老半天配置问题后我才发现：他们的代码块是用三个 <strong>`</strong> 带语言名字包起来的，而我用了Markdown的原始代码块——在代码前用Tab键。正确的代码块如下：  </p>
+<pre><code class="highlight md"><span class="code">```cpp</span>
+<span class="code">#include &lt;iostream&gt;</span>
+<span class="code">using namespace std;</span>
+<span class="code"></span>
+<span class="code">int main() &#123;</span>
+<span class="code">    cout&lt;&lt;&quot;Hello world!&quot;&lt;&lt;endl;</span>
+<span class="code">    return 0;</span>
+<span class="code">&#125;</span>
+<span class="code">``` </span># 在代码块里再写代码块好像会导致奇怪的问题，总之这个注释是为了阻止这个问题。</code></pre>
+
+<p><del>Man, what can I say?</del>  </p>
+<p>其实，Hexo还有适用于引用、链接、图片等各种资源的标签插件（见<a href="https://hexo.io/zh-cn/docs/tag-plugins" title="" target="">标签插件 (Tag Plugins) | Hexo</a>）。使用标签插件也可以创建代码块。</p>
+<h2 id="代码高亮不正常"><a href="#代码高亮不正常" class="headerlink" title="代码高亮不正常"></a>代码高亮不正常</h2><p>在给我的网站应用了<a target="_blank" rel="noopener" href="https://github.com/Litreily/hexo-theme-snark">snark</a>主题后，我发现代码高亮又坏了。刚点进文章的时候，高亮还完全正常。下一秒就变成这个鬼样子：  </p>
+<img src="/2026/07/struggles-on-setting-up-website/broken-code-highlight.png" class="" title="代码高亮不正常">  
+
+<p>解决方案？我其实不太明白到底是哪些选项冲突了。总之我单独开启了主题的highlight，把网站里的highlight和prism.js都关掉了。现在虽然没有代码行数，但至少高亮解决了（</p>
+<h2 id="Legacy-JS-API弃用"><a href="#Legacy-JS-API弃用" class="headerlink" title="Legacy JS API弃用"></a>Legacy JS API弃用</h2><p>在运行本地网站时，总有一条提示要跳出来：</p>
+<pre><code class="highlight plaintext">Deprecation Warning [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api</code></pre>
+
+<p>话是这么说，但我也没看见哪里换api什么的。留着吧，又占控制台位置。<br>所以这件事交给了Copilot（<br>Copilot帮我修改了hexo-renderer-sass中使用旧版api的部分，并写成了patch。这样这个改动就是可移植的了。</p>
+<h2 id="主题不支持Giscus评论系统"><a href="#主题不支持Giscus评论系统" class="headerlink" title="主题不支持Giscus评论系统"></a>主题不支持Giscus评论系统</h2><p>在阅读了一堆教程，碰上一堆不支持和已弃用后，我最终决定给博客引入Giscus评论系统。虽然这个系统必须要Github账号才能使用，但别的我暂时搞不定（<br>但问题是，这个snark主题并没有原生支持Giscus而是Valine，而Valine又有后端托管网站即将停止支持的问题。我原先使用了hexo-generator-comments和hexo-comments-giscus插件，但是hexo-comments-giscus插件又只支持EJS (.ejs)， Nunjucks (.njk) 和 JSX + Inferno (.jsx) 模板引擎，snark用的又是Pug (.pug)。那怎么办？<br>于是，我选择直接在主题代码里添加对应代码。在<code>snark/layout/_partial/comments.pug</code>里，我找到了Valine的css和引入js的代码。所以我就直接复制黏贴一份，再把内容换成在Giscus网站上配置得到的js代码，内容如下：  </p>
+<pre><code class="highlight pug">if theme.giscus.enable == true
+    #gcomment
+    script(src=&quot;https://giscus.app/client.js&quot;
+        data-repo=&quot;用户名/用户名.github.io&quot;
+        data-repo-id=&quot;仓库唯一id&quot;
+        data-category=&quot;评论系统使用的讨论名&quot;
+        data-category-id=&quot;讨论唯一id&quot;
+        data-mapping=&quot;pathname&quot;
+        data-strict=&quot;0&quot;
+        data-reactions-enabled=&quot;1&quot;
+        data-emit-metadata=&quot;0&quot;
+        data-input-position=&quot;top&quot;
+        data-theme=&quot;dark_dimmed&quot;
+        data-lang=&quot;zh-CN&quot;
+        data-loading=&quot;lazy&quot;
+        crossorigin=&quot;anonymous&quot;
+    )</code></pre>
+
+<p>而后，我在主题的_config.yml里，单独加了一条配置来开启Giscus:  </p>
+<pre><code class="highlight yml"><span class="attr">giscus:</span>
+  <span class="attr">enable:</span> <span class="literal">true</span></code></pre>
+
+<p>现在评论系统就能正常工作了。</p>
+<h2 id="有账号却没法在Giscus系统下评论"><a href="#有账号却没法在Giscus系统下评论" class="headerlink" title="有账号却没法在Giscus系统下评论"></a>有账号却没法在Giscus系统下评论</h2><p>当我解决了引入Giscus系统的问题后，我想着测试一下，于是就试着评论了一下。<br>但结果是，Discussions页面成功创建了对应页面的讨论，但评论本身没发出去。<br>在查看控制台后，我发现了这么一条报错：  </p>
+<pre><code class="highlight plaintext">Access to fetch at &#x27;https://api.github.com/graphql&#x27; from origin &#x27;https://giscus.app&#x27; has been blocked by CORS policy: Permission was denied for this request to access the `loopback` address space.</code></pre>
+
+<p>想当然的，我以为是我在本地测试网页评论引起的问题。于是我将网站部署上线后再次尝试，却还是同一个结果。<br>问过Deepseek后，他认为我访问网站时仍旧是通过localhost访问的。而除了真的用localhost访问外，使用<strong>内网穿透或本地代理</strong>同样会出现这个情况。<br>在ds指导下，我总算想起来罪魁祸首是谁了：Steamcommunity302。<br>Steamcommunity302在工作的时候，会将需要加速的网站全都解析到127.0.0.1，然后进行转发。<del>（这部分我猜的，我也不知道具体原理，别真信x）</del><br>总之，解决方案就是，要么别本地代理，要么直接访问。<br><em>虽然也有取消回环限制的做法，但是既然有回环限制那一定有他的道理，就不碰了。</em></p>
+<h2 id="持续更新中…"><a href="#持续更新中…" class="headerlink" title="持续更新中…"></a>持续更新中…</h2></div><div class="p-copyright"><blockquote><div class="p-copyright-author"><span class="p-copyright-key">本文作者：</span><span class="p-copytight-value"><a href="mailto:litreily@163.com">Bowone134</a></span></div><div class="p-copyright-link"><span class="p-copyright-key">本文链接：</span><span class="p-copytight-value"><a href="/2026/07/struggles-on-setting-up-website/">https://Bowone134.github.io/2026/07/struggles-on-setting-up-website/</a></span></div><div class="p-copyright-note"><span class="p-copyright-key">版权声明：</span><span class="p-copytight-value">本博客所有文章除特殊声明外，均采用<a rel="nofollow" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"> CC BY-NC 4.0 </a>许可协议。转载请注明出处 <a href="https://Bowone134.github.io">Bowone134的博客</a>！</span></div></blockquote></div></article><aside id="toc"><div class="toc-title">目录</div><nav><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">为什么建个人网站？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%BB%8F%E5%8E%86"><span class="toc-number">2.</span> <span class="toc-text">我的经历</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E4%B8%8D%E5%B7%A5%E4%BD%9C"><span class="toc-number">2.1.</span> <span class="toc-text">代码高亮不工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E4%B8%8D%E6%AD%A3%E5%B8%B8"><span class="toc-number">2.2.</span> <span class="toc-text">代码高亮不正常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Legacy-JS-API%E5%BC%83%E7%94%A8"><span class="toc-number">2.3.</span> <span class="toc-text">Legacy JS API弃用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E4%B8%8D%E6%94%AF%E6%8C%81Giscus%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F"><span class="toc-number">2.4.</span> <span class="toc-text">主题不支持Giscus评论系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E8%B4%A6%E5%8F%B7%E5%8D%B4%E6%B2%A1%E6%B3%95%E5%9C%A8Giscus%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%AF%84%E8%AE%BA"><span class="toc-number">2.5.</span> <span class="toc-text">有账号却没法在Giscus系统下评论</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%E2%80%A6"><span class="toc-number">2.6.</span> <span class="toc-text">持续更新中…</span></a></li></ol></li></ol></nav></aside><div class="p-info box"><span class="p-tags"><i class="fa fa-tags"></i><a href="/tags/Website/">Website</a><a href="/tags/Setup/">Setup</a></span></div></div><section class="p-ext"><div class="l-pager l-pager-dtl box"><a class="next" href="/2026/07/How-to-setup-your-own-website-with-Hexo-and-GitHub-Pages/">如何借助Hexo和GitHub Pages搭建个人博客 &gt;</a></div><div id="gcomment"></div><script src="https://giscus.app/client.js" data-repo="Bowone134/Bowone134.github.io" data-repo-id="R_kgDOTWNctg" data-category="Comments in website" data-category-id="DIC_kwDOTWNcts4DBGri" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark_dimmed" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous"></script></section><footer><p>Copyright © 2016 - 2026 <a href="/." rel="nofollow">Bowone134's Website</a> | <strong><a rel="nofollow" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></strong><br>Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a>Theme with<a rel="nofollow" target="_blank" href="https://github.com/litreily/snark-hexo"> snark.</a></p></footer></div></div></div><script type="text/javascript" src="/js/search.js" defer></script><script type="text/javascript" src="/js/top.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+    var search_path = 'search.xml';
+    if (search_path.length == 0) {
+        search_path = 'search.xml';
+    }
+    var path = '/' + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+});
+</script><script defer>document.addEventListener('DOMContentLoaded', function () {
+    // Fancybox v4: auto-bind all content images (skip nofancybox class)
+    Fancybox.bind('.p-content img:not(.nofancybox)', {
+        groupAll: true,
+        Toolbar: {
+            display: {
+                left:  ['infobar'],
+                middle: [],
+                right: ['slideshow', 'download', 'fullscreen', 'close'],
+            },
+        },
+        Thumbs: { type: 'classic' },
+        animated: true,
+    });
+});</script></body></html>
